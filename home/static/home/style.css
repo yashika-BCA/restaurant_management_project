@@ -1,17 +1,19 @@
 body{
-    background-color:"blue" ;
+    background-color:"soft blue" ;
     font-family: 'Segoe UI' sans-serif;
     text-align: center ;
     padding-top: 50px ;
 }
 
 h1{
-    color: "levender";
+    color: "levender-purple";
     font-size: 35px;
+    margin-bottom: 20px;
 }
 
 p{
-    color: "blue";
+    color: "deep blue";
     font-size: 20px;
+    margin: 10px 0;
 
 }
