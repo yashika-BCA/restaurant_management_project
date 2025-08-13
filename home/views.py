@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 def homepage(request):
     name = settings.RESTAURANT_NAME
-    return render(request, 'home.html' {'restaurant_namr': name})
+    return render(request, 'home.html' {'restaurant_name': name})
 
 
 
