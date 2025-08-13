@@ -5,6 +5,10 @@
     <link rel="stylesheet" type="text/css" href="{%static 'home/style.css'%}">
 </head>
 <body>
+    <nav>
+        <a href="{% url 'homepage'%}">Home</a>
+        <a href="{% url 'about'%}">About us</a>
+    </nav>
     <h1>Hello everyone</h1>
     <p>This is your styled Django homepage</p>
 </body>
