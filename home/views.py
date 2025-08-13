@@ -5,6 +5,9 @@ def homepage(request):
     name = settings.RESTAURANT_NAME
     return render(request, 'home.html' {'restaurant_name': name})
 
+def about_us(request):
+    return render(request, 'about.html')
+
 
 
 
